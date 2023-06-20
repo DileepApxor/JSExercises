@@ -11,9 +11,11 @@ const employeeRavi = {
 };
 
 function getExperienceOfRavi() {
-  if (employeeRavi.getExperience) {
-    console.log(employeeRavi.getExperience());
+  if (employeeRavi.experience) {
+    console.log(employeeRavi?.getExperience?.());
+    console.log(employeeRavi.experience);
   }
 }
 
 // - Modify the above function to use optional chaining.
+getExperienceOfRavi();
